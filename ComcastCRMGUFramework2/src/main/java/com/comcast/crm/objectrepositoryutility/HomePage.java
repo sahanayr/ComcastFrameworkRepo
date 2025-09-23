@@ -22,6 +22,13 @@ public class HomePage {
 	@FindBy(linkText = "Contacts")
 	private WebElement contactLink;
 	
+	@FindBy(linkText = "Leads")
+	private WebElement leadsLink;
+	
+	public WebElement getLeadsLink() {
+		return leadsLink;
+	}
+
 	@FindAll({@FindBy (xpath = "//a[text()='Opportunities']"),@FindBy (xpath = "//a[@href=\"index.php?module=Potentials&action=index\"]")})	
 	private WebElement opportunityLink;
 	
