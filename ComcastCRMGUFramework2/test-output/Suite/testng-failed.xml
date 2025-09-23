@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="extent_report.CreateNewOpportunityTest">
+        <methods>
+          <include name="AS"/>
+          <include name="AC"/>
+          <include name="AM"/>
+          <include name="BM"/>
+          <include name="createNewOpportunity"/>
+          <include name="BS"/>
+          <include name="BC"/>
+        </methods>
+      </class> <!-- extent_report.CreateNewOpportunityTest -->
+      <class name="extent_report.CreateNewCampaignTest">
+        <methods>
+          <include name="AS"/>
+          <include name="AC"/>
+          <include name="AM"/>
+          <include name="BM"/>
+          <include name="BS"/>
+          <include name="BC"/>
+          <include name="createNewCampaign"/>
+        </methods>
+      </class> <!-- extent_report.CreateNewCampaignTest -->
+      <class name="extent_report.CreateNewDocumentTest">
+        <methods>
+          <include name="AS"/>
+          <include name="AC"/>
+          <include name="AM"/>
+          <include name="BM"/>
+          <include name="createNewDocument"/>
+          <include name="BS"/>
+          <include name="BC"/>
+        </methods>
+      </class> <!-- extent_report.CreateNewDocumentTest -->
+      <class name="extent_report.CreateNewProductTest">
+        <methods>
+          <include name="AS"/>
+          <include name="AC"/>
+          <include name="AM"/>
+          <include name="BM"/>
+          <include name="createNewContact"/>
+          <include name="BS"/>
+          <include name="BC"/>
+        </methods>
+      </class> <!-- extent_report.CreateNewProductTest -->
+      <class name="extent_report.CreateOrganizationTestExtentReport">
+        <methods>
+          <include name="AC"/>
+          <include name="AS"/>
+          <include name="createOrgWithPhoneNumber"/>
+          <include name="AM"/>
+          <include name="orgPage"/>
+          <include name="createOrgWithIndustry"/>
+          <include name="BM"/>
+          <include name="deleteOrgTest"/>
+          <include name="BC"/>
+          <include name="BS"/>
+        </methods>
+      </class> <!-- extent_report.CreateOrganizationTestExtentReport -->
+      <class name="extent_report.CreateNewTicketTest">
+        <methods>
+          <include name="AS"/>
+          <include name="AC"/>
+          <include name="AM"/>
+          <include name="BM"/>
+          <include name="createTicket"/>
+          <include name="BS"/>
+          <include name="BC"/>
+        </methods>
+      </class> <!-- extent_report.CreateNewTicketTest -->
+      <class name="extent_report.CreateContactWithExtentReport">
+        <methods>
+          <include name="AS"/>
+          <include name="AC"/>
+          <include name="createContactWithOrg"/>
+          <include name="AM"/>
+          <include name="createContactWithSupportDate"/>
+          <include name="BM"/>
+          <include name="BS"/>
+          <include name="BC"/>
+          <include name="createContact"/>
+        </methods>
+      </class> <!-- extent_report.CreateContactWithExtentReport -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
