@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>ComcastFrameworkRepo6</name>
+=======
+	<name>ComcastFrameworkRepo5</name>
+>>>>>>> branch 'master' of https://github.com/sahanayr/ComcastFrameworkRepo.git
 	<comment></comment>
 	<projects>
 	</projects>
